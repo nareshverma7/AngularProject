@@ -1,20 +1,20 @@
-!SESSION 2020-03-03 17:18:49.473 -----------------------------------------------
+!SESSION 2020-03-03 17:56:26.874 -----------------------------------------------
 eclipse.buildId=4.5.0.201912171052-RELEASE
 java.version=1.8.0_111
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data D:\Angular8NEW\SpringPrj -product org.springframework.boot.ide.branding.sts4
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.jface 2 0 2020-03-03 17:19:17.041
+!ENTRY org.eclipse.jface 2 0 2020-03-03 17:56:38.983
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-03 17:19:17.041
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-03 17:56:38.983
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ab826bb,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a663a45,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -22,17 +22,17 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@219db855,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e296794,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-03 17:19:17.041
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-03 17:56:38.983
 !MESSAGE A conflict occurred for ALT+SHIFT+X R:
 Binding(ALT+SHIFT+X R,
 	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
 		Run RAP Application,
 		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3702d0ed,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@988c126,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -40,17 +40,17 @@ Binding(ALT+SHIFT+X R,
 	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
 		Run the current selection on a server,
 		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b7b0ada,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fda8dae,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-03 17:19:17.041
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-03 17:56:38.983
 !MESSAGE A conflict occurred for ALT+SHIFT+D R:
 Binding(ALT+SHIFT+D R,
 	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
 		Debug RAP Application,
 		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@705d72f0,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34e53c02,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -58,7 +58,14 @@ Binding(ALT+SHIFT+D R,
 	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
 		Debug the current selection on a server,
 		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c4e23be,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7135e8cd,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-03-03 17:56:51.232
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
